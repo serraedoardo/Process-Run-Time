@@ -71,7 +71,7 @@ def monitor_process(process_name, file_name):
             save_elapsed_time_to_file(file_name, elapsed_time)
         
         # Add a small delay to avoid excessive CPU usage
-        time.sleep(1)
+        time.sleep(5)
 
 
 if __name__ == "__main__":
