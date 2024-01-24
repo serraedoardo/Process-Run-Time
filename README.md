@@ -1,6 +1,6 @@
 **Process Run Time Monitoring Script:**
 
-This Python script allows you to monitor the run time of any process on a Windows system.
+This Python script allows you to monitor the total run time of any process on a Windows system.
 
 
 **1.) File Renaming:**
