@@ -23,7 +23,7 @@ This Python script allows you to monitor the total run time of any process on a 
   Reboot the system to ensure the script runs automatically.
 
 
-To monitor multiple processes simultaneously, you need to create distinct .pyw files, each with a unique name, and edit the process name as well as the name of the .txt files that they generate, inside each one of them. Then, configure separate batch files each pointing to its respective .pyw file, and execute all the batch files at startup.
+To monitor multiple processes simultaneously, you need to create distinct .pyw files, each with a unique name, and edit the process name as well as the name of the .txt files that they generate inside each one of them. Then, configure separate batch files each pointing to its respective .pyw file, and execute all the batch files at startup.
 
 
 After the monitored process is executed, the script will generate two .txt files in the same folder where it is saved. These files will contain the total time the monitored process has run/has been running in seconds and in hours, minutes, and seconds, respectively. The script will continuously update the run time upon each execution of the monitored process and every 5 seconds while the process is running.
