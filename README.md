@@ -1,2 +1,2 @@
 # Process-Run-Time
-Python script that cam monitor any process run time
+Python script that can monitor any process run time on windows.
