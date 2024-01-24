@@ -5,7 +5,7 @@ This Python script allows you to monitor the run time of any process on a Window
 1.) File Renaming:
 Rename the file "DCS Run Time.bat" to your preference or keep it as is.
 
-2.)Editing the files:
+2.) Editing the files:
 Open the .bat file and update the paths for both your Python installation (pythonw.exe) and the location of the "elapsed_time.pyw" file.
 In the "elapsed_time.pyw" file, replace "DCS.exe" with the name of the process you wish to monitor.
 
