@@ -3,6 +3,9 @@
 This Python script allows you to monitor the total run time of any process on a Windows system.
 
 
+**0.) Requirements:**
+  Ensure you have a functional Python installation added to PATH, and make sure to have the psutil Python library installed.
+
 **1.) File Renaming:**
   Rename the file "DCS Run Time.bat" to your preference or keep it as is.
 
