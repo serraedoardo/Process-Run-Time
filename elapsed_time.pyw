@@ -7,11 +7,10 @@ def get_elapsed_time_from_file(file_name):
     if os.path.exists(file_name):
         with open(file_name, 'r') as file:
             return float(file.read().strip())
-    else:
-        # Create the file if it doesn't exist
-        with open(file_name, 'w') as file:
-            file.write('0')
-        return 0
+    # Create the file if it doesn't exist
+    with open(file_name, 'w') as file:
+        file.write('0')
+    return 0
 
 def format_elapsed_time(elapsed_time):
     # Convert elapsed time to hours, minutes, and seconds
