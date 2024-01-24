@@ -14,7 +14,7 @@ This Python script allows you to monitor the total run time of any process on a 
   Create a shortcut for the .bat file.
 
 **4.) Startup Folder Placement:**
-  Move the shortcut to "C:\Users<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup."
+  Move the shortcut to "C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup."
 
 **5.) System Reboot:**
   Reboot the system to ensure the script runs automatically.
