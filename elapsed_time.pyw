@@ -4,8 +4,8 @@ import time
 import os
         
 def get_elapsed_time_from_shelve(shelve_file):
-    # Create the "shelve files" directory if it doesn't exist
-    directory = "Shelve files" #os.path.dirname("Shelve files")
+    # Create the "Shelve files" directory if it doesn't exist
+    directory = "Shelve files"
     if not os.path.exists(directory):
         os.makedirs(directory)
 
